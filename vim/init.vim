@@ -43,7 +43,7 @@ inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 
 inoremap <ESC> <NOP>
-inoremap jk <ESC>
+inoremap <BS> <ESC>
 if has("persistent_undo")
   set undodir=~/.undodir/
   set undofile
